@@ -1,0 +1,10 @@
+{
+    "name": "TODO list PWA example app for Prime Workshop!",
+    "short_name": "TODO list PWA style",
+    "start_url": "./",
+    "orientation": "portrait",
+    "theme_color": "blue",
+    "scope": "./",
+    "display": "standalone"
+   
+}

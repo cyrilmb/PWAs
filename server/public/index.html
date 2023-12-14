@@ -4,11 +4,14 @@
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- You can also call in manifest.json for the href -->
+        <link rel="manifest" href="app.webmanifest">
         <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
         <link rel="stylesheet" href="./styles/style.css">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="./scripts/client.js"></script>
+        <script defer src="sw-register.js"></script>
         <title>ToDo, more like To DONE!</title>
     </head>
 
